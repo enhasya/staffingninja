@@ -3,9 +3,18 @@
   background-repeat: no-repeat;
 }
 
+.details {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
 @media screen and (max-width: 1023px) {
   .hero {
     background-image: url("../assets/public/hero-background.png");
+    background-position: top left;
+  }
+  .details {
+    background-image: url("../assets/public/details-background.png");
     background-position: top left;
   }
 }
@@ -13,6 +22,10 @@
 @media screen and (min-width: 1024px) {
   .hero {
     background-image: url("../assets/public/hero-background.png");
+    background-position: center;
+  }
+  .details {
+    background-image: url("../assets/public/details-background.png");
     background-position: center;
   }
 }

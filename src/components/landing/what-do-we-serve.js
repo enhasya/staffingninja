@@ -1,47 +1,89 @@
 import React from "react";
 
 const {
-  default: RecruitmentConsultancy,
-} = require("../../assets/public/recruitment-consultancy.svg");
+  default: RecruitmentStrategies,
+} = require("../../assets/public/recruitment-strategies.svg");
+const {
+  default: LargeCandidatePool,
+} = require("../../assets/public/large-candidate-pool.svg");
+const {
+  default: TeamBuildingPlan,
+} = require("../../assets/public/team-building-plan.svg");
+const {
+  default: RightOpportunities,
+} = require("../../assets/public/right-opportunities.svg");
+const {
+  default: GlobalSourcing,
+} = require("../../assets/public/global-sourcing.svg");
 
 const WhatDoWeServe = () => {
   return (
-    <div className="bg-[#2c3640] flex flex-col gap-8 lg:gap-16 items-start lg:items-center justify-center w-full h-auto lg:h-auto p-8 lg:p-32">
+    <div className="bg-[#ffffff] flex flex-col gap-8 lg:gap-16 items-start lg:items-center justify-center w-full h-auto lg:h-auto p-8 lg:p-32">
       <section className="flex flex-col gap-0 items-start lg:items-center justify-center w-full">
-        <p className="text-[#ffffff] text-2xl lg:text-4xl font-bold tracking-tight leading-relaxed lg:leading-relaxed w-full lg:w-[720px] mt-0">
-          Why do We call Ourselves a Leading Recruitment Consultancy for
-          Industry 4.0?
+        <p className="text-[#2c3640] text-2xl lg:text-4xl font-bold tracking-tight leading-relaxed lg:leading-relaxed w-full lg:w-[720px] mt-0">
+          What do We Serve?
         </p>
-        <p className="text-[#ffffff]/60 text-sm lg:text-lg font-medium tracking-tight leading-relaxed lg:leading-relaxed w-full lg:w-[720px] mt-4 lg:mt-8">
-          Staffing Ninja has been supporting businesses in industry 4.0 with
-          great recruitment strategies, and always helps businesses with the
-          right set of candidates and fulfill their recruitment needs. We cater
-          to businesses who are building businesses with technologies like
-          blockchain, AI, Machine Learning, etc.
+        <p className="text-[#2c3640]/60 text-sm lg:text-lg font-medium tracking-tight leading-relaxed lg:leading-relaxed w-full lg:w-[720px] mt-4 lg:mt-8">
+          At our core, we are dedicated to providing comprehensive services that
+          empower businesses in the realm of talent acquisition. Our offerings
+          are meticulously designed to cater to the diverse needs of
+          organizations seeking to build robust teams and secure the right
+          talent. Here's a breakdown of what we bring to the table:
         </p>
-        <div className="flex flex-col lg:flex-row gap-8 justify-center w-full mt-8 lg:mt-16">
-          <div className="bg-white/10 transition-all hover:bg-white/20 flex flex-col gap-0 items-center w-full lg:w-[480px] p-8 rounded-lg">
-            <p className="text-[#ffffff] text-lg lg:text-2xl font-bold tracking-tight leading-relaxed lg:leading-relaxed w-full mt-0">
-              Mission & Goal
-            </p>
-            <p className="text-[#ffffff] text-sm lg:text-lg font-medium tracking-tight leading-relaxed lg:leading-relaxed w-full mt-4">
-              We want to support every{" "}
-              <span className="font-bold">Blockchain</span>,{" "}
-              <span className="font-bold">AI</span>,{" "}
-              <span className="font-bold">Gaming</span> and{" "}
-              <span className="font-bold">Forex</span> project to build a
-              magnificent team using our splendid services. We want to help
-              candidates find the right opportunity where they can showcase
-              their skills.
+        <div className="grid grid-cols-3 lg:grid-cols-5 gap-8 w-full h-auto mt-8 lg:mt-16">
+          <div className="flex flex-col gap-0 items-center justify-center w-full p-4 lg:p-8 shadow-2xl transition-all shadow-black/10 lg:hover:shadow-black/20 rounded-lg">
+            <img
+              src={RecruitmentStrategies}
+              width="128"
+              height="128"
+              alt="RecruitmentStrategies"
+            />
+            <p className="text-[#2c3640] text-sm lg:text-lg font-bold text-start lg:text-center tracking-tight leading-relaxed lg:leading-relaxed w-full mt-4">
+              Recruitment Strategies
             </p>
           </div>
-          <div className="bg-white/10 transition-all hover:bg-white/20 flex flex-col gap-0 items-center w-full lg:w-[480px] p-8 rounded-lg">
-            <p className="text-[#ffffff] text-lg lg:text-2xl font-bold tracking-tight leading-relaxed lg:leading-relaxed w-full mt-0">
-              Why Us?
+          <div className="flex flex-col gap-0 items-center justify-center w-full p-4 lg:p-8 shadow-2xl transition-all shadow-black/10 lg:hover:shadow-black/20 rounded-lg">
+            <img
+              src={LargeCandidatePool}
+              width="128"
+              height="128"
+              alt="LargeCandidatePool"
+            />
+            <p className="text-[#2c3640] text-sm lg:text-lg font-bold text-start lg:text-center tracking-tight leading-relaxed lg:leading-relaxed w-full mt-4">
+              Large Candidate Pool
             </p>
-            <p className="text-[#ffffff] text-sm lg:text-lg font-medium tracking-tight leading-relaxed lg:leading-relaxed w-full mt-4">
-              Our magnificent team who drive innovative strategies and challenge
-              every complex business problems.
+          </div>
+          <div className="flex flex-col gap-0 items-center justify-center w-full p-4 lg:p-8 shadow-2xl transition-all shadow-black/10 lg:hover:shadow-black/20 rounded-lg">
+            <img
+              src={TeamBuildingPlan}
+              width="128"
+              height="128"
+              alt="TeamBuildingPlan"
+            />
+            <p className="text-[#2c3640] text-sm lg:text-lg font-bold text-start lg:text-center tracking-tight leading-relaxed lg:leading-relaxed w-full mt-4">
+              Team Building Plan
+            </p>
+          </div>
+          <div className="flex flex-col gap-0 items-center justify-center w-full p-4 lg:p-8 shadow-2xl transition-all shadow-black/10 lg:hover:shadow-black/20 rounded-lg">
+            <img
+              src={RightOpportunities}
+              width="128"
+              height="128"
+              alt="RightOpportunities"
+            />
+            <p className="text-[#2c3640] text-sm lg:text-lg font-bold text-start lg:text-center tracking-tight leading-relaxed lg:leading-relaxed w-full mt-4">
+              Right Opportunities
+            </p>
+          </div>
+          <div className="flex flex-col gap-0 items-center justify-center w-full p-4 lg:p-8 shadow-2xl transition-all shadow-black/10 lg:hover:shadow-black/20 rounded-lg">
+            <img
+              src={GlobalSourcing}
+              width="128"
+              height="128"
+              alt="GlobalSourcing"
+            />
+            <p className="text-[#2c3640] text-sm lg:text-lg font-bold text-start lg:text-center tracking-tight leading-relaxed lg:leading-relaxed w-full mt-4">
+              Global Sourcing
             </p>
           </div>
         </div>

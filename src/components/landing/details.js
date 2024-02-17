@@ -1,8 +1,11 @@
 import React from "react";
+import css from "../../modules/universal.module.css"
 
 const Details = () => {
   return (
-    <div className="bg-[#2c3640] flex flex-col gap-8 lg:gap-16 items-start lg:items-center justify-center w-full h-auto lg:h-auto p-8 lg:p-32">
+    <div
+      className={`${css.details} flex flex-col gap-8 lg:gap-16 items-start lg:items-center justify-center w-full h-auto lg:h-auto p-8 lg:p-32`}
+    >
       <section className="flex flex-col gap-0 items-start lg:items-center justify-center w-full">
         <p className="text-[#ffffff] text-2xl lg:text-4xl font-bold tracking-tight leading-relaxed lg:leading-relaxed w-full lg:w-[720px] mt-0">
           Why do We call Ourselves a Leading Recruitment Consultancy for
@@ -16,7 +19,7 @@ const Details = () => {
           blockchain, AI, Machine Learning, etc.
         </p>
         <div className="flex flex-col lg:flex-row gap-8 justify-center w-full mt-8 lg:mt-16">
-          <div className="bg-white/10 transition-all hover:bg-white/20 flex flex-col gap-0 items-center w-full lg:w-[480px] p-8 rounded-lg">
+          <div className="bg-white/10 transition-all hover:bg-white/20 hover:backdrop-blur-lg flex flex-col gap-0 items-center w-full lg:w-[480px] p-8 rounded-lg">
             <p className="text-[#ffffff] text-lg lg:text-2xl font-bold tracking-tight leading-relaxed lg:leading-relaxed w-full mt-0">
               Mission & Goal
             </p>
@@ -31,7 +34,7 @@ const Details = () => {
               their skills.
             </p>
           </div>
-          <div className="bg-white/10 transition-all hover:bg-white/20 flex flex-col gap-0 items-center w-full lg:w-[480px] p-8 rounded-lg">
+          <div className="bg-white/10 transition-all hover:bg-white/20 hover:backdrop-blur-lg flex flex-col gap-0 items-center w-full lg:w-[480px] p-8 rounded-lg">
             <p className="text-[#ffffff] text-lg lg:text-2xl font-bold tracking-tight leading-relaxed lg:leading-relaxed w-full mt-0">
               Why Us?
             </p>

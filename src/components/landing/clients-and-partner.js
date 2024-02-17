@@ -32,13 +32,13 @@ const ClientsAndPartner = () => {
         </div>
         <div className="flex flex-col gap-8 justify-center w-full mt-0">
           <div className="grid grid-cols-3 lg:grid-cols-5 gap-8 w-full h-auto">
-            <div className="flex flex-col gap-0 items-center justify-center w-full p-4 lg:p-8 shadow-2xl shadow-black/10 rounded-lg">
+            <div className="flex flex-col gap-0 items-center justify-center w-full p-4 lg:p-8 shadow-2xl transition-all shadow-black/10 lg:hover:shadow-black/20 rounded-lg">
               <img src={BingX} width="128" height="128" alt="BingX" />
             </div>
-            <div className="flex flex-col gap-0 items-center justify-center w-full p-4 lg:p-8 shadow-2xl shadow-black/10 rounded-lg">
+            <div className="flex flex-col gap-0 items-center justify-center w-full p-4 lg:p-8 shadow-2xl transition-all shadow-black/10 lg:hover:shadow-black/20 rounded-lg">
               <img src={Binocs} width="128" height="128" alt="Binocs" />
             </div>
-            <div className="flex flex-col gap-0 items-center justify-center w-full p-4 lg:p-8 shadow-2xl shadow-black/10 rounded-lg">
+            <div className="flex flex-col gap-0 items-center justify-center w-full p-4 lg:p-8 shadow-2xl transition-all shadow-black/10 lg:hover:shadow-black/20 rounded-lg">
               <img
                 src={BloxStaking}
                 width="128"
@@ -46,22 +46,22 @@ const ClientsAndPartner = () => {
                 alt="BloxStaking"
               />
             </div>
-            <div className="flex flex-col gap-0 items-center justify-center w-full p-4 lg:p-8 shadow-2xl shadow-black/10 rounded-lg">
+            <div className="flex flex-col gap-0 items-center justify-center w-full p-4 lg:p-8 shadow-2xl transition-all shadow-black/10 lg:hover:shadow-black/20 rounded-lg">
               <img src={Crastonic} width="128" height="128" alt="Crastonic" />
             </div>
-            <div className="flex flex-col gap-0 items-center justify-center w-full p-4 lg:p-8 shadow-2xl shadow-black/10 rounded-lg">
+            <div className="flex flex-col gap-0 items-center justify-center w-full p-4 lg:p-8 shadow-2xl transition-all shadow-black/10 lg:hover:shadow-black/20 rounded-lg">
               <img src={DeGate} width="128" height="128" alt="DeGate" />
             </div>
-            <div className="flex flex-col gap-0 items-center justify-center w-full p-4 lg:p-8 shadow-2xl shadow-black/10 rounded-lg">
+            <div className="flex flex-col gap-0 items-center justify-center w-full p-4 lg:p-8 shadow-2xl transition-all shadow-black/10 lg:hover:shadow-black/20 rounded-lg">
               <img src={Navcoin} width="128" height="128" alt="Navcoin" />
             </div>
-            <div className="flex flex-col gap-0 items-center justify-center w-full p-4 lg:p-8 shadow-2xl shadow-black/10 rounded-lg">
+            <div className="flex flex-col gap-0 items-center justify-center w-full p-4 lg:p-8 shadow-2xl transition-all shadow-black/10 lg:hover:shadow-black/20 rounded-lg">
               <img src={Ontropy} width="128" height="128" alt="Ontropy" />
             </div>
-            <div className="flex flex-col gap-0 items-center justify-center w-full p-4 lg:p-8 shadow-2xl shadow-black/10 rounded-lg">
+            <div className="flex flex-col gap-0 items-center justify-center w-full p-4 lg:p-8 shadow-2xl transition-all shadow-black/10 lg:hover:shadow-black/20 rounded-lg">
               <img src={Tassets} width="128" height="128" alt="Tassets" />
             </div>
-            <div className="flex flex-col gap-0 items-center justify-center w-full p-4 lg:p-8 shadow-2xl shadow-black/10 rounded-lg">
+            <div className="flex flex-col gap-0 items-center justify-center w-full p-4 lg:p-8 shadow-2xl transition-all shadow-black/10 lg:hover:shadow-black/20 rounded-lg">
               <img
                 src={TechforceTechnologies}
                 width="128"
@@ -69,7 +69,7 @@ const ClientsAndPartner = () => {
                 alt="TechforceTechnologies"
               />
             </div>
-            <div className="flex flex-col gap-0 items-center justify-center w-full p-4 lg:p-8 shadow-2xl shadow-black/10 rounded-lg">
+            <div className="flex flex-col gap-0 items-center justify-center w-full p-4 lg:p-8 shadow-2xl transition-all shadow-black/10 lg:hover:shadow-black/20 rounded-lg">
               <img src={ZKX} width="128" height="128" alt="ZKX" />
             </div>
           </div>
