@@ -15,7 +15,7 @@ const Hero = () => {
           Making Recruitment Simple
         </p>
         <p className="text-[#2c3640] text-lg lg:text-2xl font-bold tracking-tight leading-relaxed lg:leading-relaxed w-full mt-4">
-          A leading recruitment consultancy for industry 4.0
+          A Leading Recruitment Consultancy for Industry 4.0
         </p>
         <p className="text-[#2c3640] text-sm lg:text-lg font-medium tracking-tight leading-relaxed lg:leading-relaxed w-full mt-4">
           We are a dynamic and innovative staffing solutions company committed
