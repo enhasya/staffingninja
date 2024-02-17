@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+
+const { default: IncludeNavbar } = require("../layouts/include-navbar");
 
 const Landing = () => {
   return (
-    <div>Landing</div>
-  )
-}
+    <IncludeNavbar>
+      <div>Hi</div>
+    </IncludeNavbar>
+  );
+};
 
-export default Landing
+export default Landing;
