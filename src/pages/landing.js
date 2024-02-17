@@ -9,6 +9,7 @@ const { default: Details } = require("../components/landing/details");
 const {
   default: WhatDoWeServe,
 } = require("../components/landing/what-do-we-serve");
+const { default: Footer } = require("../components/landing/footer");
 
 const Landing = () => {
   return (
@@ -17,6 +18,7 @@ const Landing = () => {
       <ClientsAndPartner />
       <Details />
       <WhatDoWeServe />
+      <Footer />
     </IncludeNavbar>
   );
 };
