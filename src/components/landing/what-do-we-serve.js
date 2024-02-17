@@ -31,7 +31,7 @@ const WhatDoWeServe = () => {
           talent. Here's a breakdown of what we bring to the table:
         </p>
         <div className="grid grid-cols-2 lg:grid-cols-6 gap-8 w-full h-auto mt-8 lg:mt-16">
-          <div className="flex flex-col gap-0 items-center justify-center w-full p-4 lg:p-8 shadow-2xl transition-all shadow-black/10 lg:hover:shadow-black/20 rounded-lg">
+          <div className="flex flex-col gap-0 items-center justify-center w-full p-4 lg:p-8 shadow-2xl transition-all ring-1 ring-black/5 shadow-black/10 lg:hover:shadow-black/20 rounded-lg">
             <img
               src={RecruitmentStrategies}
               width="128"
@@ -42,7 +42,7 @@ const WhatDoWeServe = () => {
               Recruitment Strategies
             </p>
           </div>
-          <div className="flex flex-col gap-0 items-center justify-center w-full p-4 lg:p-8 shadow-2xl transition-all shadow-black/10 lg:hover:shadow-black/20 rounded-lg">
+          <div className="flex flex-col gap-0 items-center justify-center w-full p-4 lg:p-8 shadow-2xl transition-all ring-1 ring-black/5 shadow-black/10 lg:hover:shadow-black/20 rounded-lg">
             <img
               src={LargeCandidatePool}
               width="128"
@@ -53,7 +53,7 @@ const WhatDoWeServe = () => {
               Large Candidate Pool
             </p>
           </div>
-          <div className="flex flex-col gap-0 items-center justify-center w-full p-4 lg:p-8 shadow-2xl transition-all shadow-black/10 lg:hover:shadow-black/20 rounded-lg">
+          <div className="flex flex-col gap-0 items-center justify-center w-full p-4 lg:p-8 shadow-2xl transition-all ring-1 ring-black/5 shadow-black/10 lg:hover:shadow-black/20 rounded-lg">
             <img
               src={TeamBuildingPlan}
               width="128"
@@ -64,7 +64,7 @@ const WhatDoWeServe = () => {
               Team Building Plan
             </p>
           </div>
-          <div className="flex flex-col gap-0 items-center justify-center w-full p-4 lg:p-8 shadow-2xl transition-all shadow-black/10 lg:hover:shadow-black/20 rounded-lg">
+          <div className="flex flex-col gap-0 items-center justify-center w-full p-4 lg:p-8 shadow-2xl transition-all ring-1 ring-black/5 shadow-black/10 lg:hover:shadow-black/20 rounded-lg">
             <img
               src={RightOpportunities}
               width="128"
@@ -75,7 +75,7 @@ const WhatDoWeServe = () => {
               Right Opportunities
             </p>
           </div>
-          <div className="flex flex-col gap-0 items-center justify-center w-full p-4 lg:p-8 shadow-2xl transition-all shadow-black/10 lg:hover:shadow-black/20 rounded-lg">
+          <div className="flex flex-col gap-0 items-center justify-center w-full p-4 lg:p-8 shadow-2xl transition-all ring-1 ring-black/5 shadow-black/10 lg:hover:shadow-black/20 rounded-lg">
             <img
               src={GlobalSourcing}
               width="128"
@@ -86,7 +86,7 @@ const WhatDoWeServe = () => {
               Global Sourcing
             </p>
           </div>
-          <div className="bg-[#2c3640] transition-all hover:bg-[#2c3640]/80 flex flex-col gap-0 items-center justify-center w-full p-4 lg:p-8 shadow-2xl shadow-black/10 lg:hover:shadow-black/20 rounded-lg">
+          <div className="bg-[#2c3640] transition-all hover:bg-[#2c3640]/80 flex flex-col gap-0 items-center justify-center w-full p-4 lg:p-8 shadow-2xl ring-1 ring-black/5 shadow-black/10 lg:hover:shadow-black/20 rounded-lg">
             <p className="text-[#ffffff] text-sm font-bold text-start lg:text-center tracking-tight leading-relaxed lg:leading-relaxed w-full mt-4">
               Learn More
             </p>
