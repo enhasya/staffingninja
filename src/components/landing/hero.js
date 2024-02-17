@@ -1,9 +1,9 @@
 import React from "react";
-import css from "../modules/universal.module.css";
+import css from "../../modules/universal.module.css";
 
 const {
   default: RecruitmentConsultancy,
-} = require("../assets/public/recruitment-consultancy.svg");
+} = require("../../assets/public/recruitment-consultancy.svg");
 
 const Hero = () => {
   return (
@@ -11,7 +11,7 @@ const Hero = () => {
       className={`${css.hero} flex flex-col lg:flex-row gap-8 lg:gap-16 items-start lg:items-center justify-center w-full h-auto lg:h-auto p-8 lg:p-32`}
     >
       <section className="flex flex-col gap-0 items-start justify-center w-full lg:w-[50%]">
-        <p className="text-[#2c3640] text-4xl lg:text-6xl font-bold tracking-tight leading-relaxed lg:leading-relaxed w-full mt-0">
+        <p className="text-[#2c3640] text-2xl lg:text-6xl font-bold tracking-tight leading-relaxed lg:leading-relaxed w-full mt-0">
           Making Recruitment Simple
         </p>
         <p className="text-[#2c3640] text-lg lg:text-2xl font-bold tracking-tight leading-relaxed lg:leading-relaxed w-full mt-4">

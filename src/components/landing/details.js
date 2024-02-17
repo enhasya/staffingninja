@@ -1,9 +1,5 @@
 import React from "react";
 
-const {
-  default: RecruitmentConsultancy,
-} = require("../assets/public/recruitment-consultancy.svg");
-
 const Details = () => {
   return (
     <div className="bg-[#2c3640] flex flex-col gap-8 lg:gap-16 items-start lg:items-center justify-center w-full h-auto lg:h-auto p-8 lg:p-32">
@@ -12,7 +8,7 @@ const Details = () => {
           Why do We call Ourselves a Leading Recruitment Consultancy for
           Industry 4.0?
         </p>
-        <p className="text-[#ffffff]/60 text-sm lg:text-lg font-medium tracking-tight leading-relaxed lg:leading-relaxed w-full lg:w-[720px] mt-8">
+        <p className="text-[#ffffff]/60 text-sm lg:text-lg font-medium tracking-tight leading-relaxed lg:leading-relaxed w-full lg:w-[720px] mt-4 lg:mt-8">
           Staffing Ninja has been supporting businesses in industry 4.0 with
           great recruitment strategies, and always helps businesses with the
           right set of candidates and fulfill their recruitment needs. We cater
