@@ -30,7 +30,7 @@ const WhatDoWeServe = () => {
           organizations seeking to build robust teams and secure the right
           talent. Here's a breakdown of what we bring to the table:
         </p>
-        <div className="grid grid-cols-3 lg:grid-cols-5 gap-8 w-full h-auto mt-8 lg:mt-16">
+        <div className="grid grid-cols-2 lg:grid-cols-6 gap-8 w-full h-auto mt-8 lg:mt-16">
           <div className="flex flex-col gap-0 items-center justify-center w-full p-4 lg:p-8 shadow-2xl transition-all shadow-black/10 lg:hover:shadow-black/20 rounded-lg">
             <img
               src={RecruitmentStrategies}
@@ -38,7 +38,7 @@ const WhatDoWeServe = () => {
               height="128"
               alt="RecruitmentStrategies"
             />
-            <p className="text-[#2c3640] text-sm lg:text-lg font-bold text-start lg:text-center tracking-tight leading-relaxed lg:leading-relaxed w-full mt-4">
+            <p className="text-[#2c3640] text-sm font-bold text-start lg:text-center tracking-tight leading-relaxed lg:leading-relaxed w-full mt-4">
               Recruitment Strategies
             </p>
           </div>
@@ -49,7 +49,7 @@ const WhatDoWeServe = () => {
               height="128"
               alt="LargeCandidatePool"
             />
-            <p className="text-[#2c3640] text-sm lg:text-lg font-bold text-start lg:text-center tracking-tight leading-relaxed lg:leading-relaxed w-full mt-4">
+            <p className="text-[#2c3640] text-sm font-bold text-start lg:text-center tracking-tight leading-relaxed lg:leading-relaxed w-full mt-4">
               Large Candidate Pool
             </p>
           </div>
@@ -60,7 +60,7 @@ const WhatDoWeServe = () => {
               height="128"
               alt="TeamBuildingPlan"
             />
-            <p className="text-[#2c3640] text-sm lg:text-lg font-bold text-start lg:text-center tracking-tight leading-relaxed lg:leading-relaxed w-full mt-4">
+            <p className="text-[#2c3640] text-sm font-bold text-start lg:text-center tracking-tight leading-relaxed lg:leading-relaxed w-full mt-4">
               Team Building Plan
             </p>
           </div>
@@ -71,7 +71,7 @@ const WhatDoWeServe = () => {
               height="128"
               alt="RightOpportunities"
             />
-            <p className="text-[#2c3640] text-sm lg:text-lg font-bold text-start lg:text-center tracking-tight leading-relaxed lg:leading-relaxed w-full mt-4">
+            <p className="text-[#2c3640] text-sm font-bold text-start lg:text-center tracking-tight leading-relaxed lg:leading-relaxed w-full mt-4">
               Right Opportunities
             </p>
           </div>
@@ -82,8 +82,13 @@ const WhatDoWeServe = () => {
               height="128"
               alt="GlobalSourcing"
             />
-            <p className="text-[#2c3640] text-sm lg:text-lg font-bold text-start lg:text-center tracking-tight leading-relaxed lg:leading-relaxed w-full mt-4">
+            <p className="text-[#2c3640] text-sm font-bold text-start lg:text-center tracking-tight leading-relaxed lg:leading-relaxed w-full mt-4">
               Global Sourcing
+            </p>
+          </div>
+          <div className="bg-[#2c3640] transition-all hover:bg-[#2c3640]/80 flex flex-col gap-0 items-center justify-center w-full p-4 lg:p-8 shadow-2xl shadow-black/10 lg:hover:shadow-black/20 rounded-lg">
+            <p className="text-[#ffffff] text-sm font-bold text-start lg:text-center tracking-tight leading-relaxed lg:leading-relaxed w-full mt-4">
+              Learn More
             </p>
           </div>
         </div>

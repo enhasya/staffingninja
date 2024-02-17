@@ -20,10 +20,10 @@ const Details = () => {
         </p>
         <div className="flex flex-col lg:flex-row gap-8 justify-center w-full mt-8 lg:mt-16">
           <div className="bg-white/10 transition-all hover:bg-white/20 hover:backdrop-blur-lg flex flex-col gap-0 items-center w-full lg:w-[480px] p-8 rounded-lg">
-            <p className="text-[#ffffff] text-lg lg:text-2xl font-bold tracking-tight leading-relaxed lg:leading-relaxed w-full mt-0">
+            <p className="text-[#ffffff] text-lg font-bold tracking-tight leading-relaxed w-full mt-0">
               Mission & Goal
             </p>
-            <p className="text-[#ffffff] text-sm lg:text-lg font-medium tracking-tight leading-relaxed lg:leading-relaxed w-full mt-4">
+            <p className="text-[#ffffff] text-sm font-medium tracking-tight leading-relaxed w-full mt-4">
               We want to support every{" "}
               <span className="font-bold">Blockchain</span>,{" "}
               <span className="font-bold">AI</span>,{" "}
@@ -35,10 +35,10 @@ const Details = () => {
             </p>
           </div>
           <div className="bg-white/10 transition-all hover:bg-white/20 hover:backdrop-blur-lg flex flex-col gap-0 items-center w-full lg:w-[480px] p-8 rounded-lg">
-            <p className="text-[#ffffff] text-lg lg:text-2xl font-bold tracking-tight leading-relaxed lg:leading-relaxed w-full mt-0">
+            <p className="text-[#ffffff] text-lg font-bold tracking-tight leading-relaxed w-full mt-0">
               Why Us?
             </p>
-            <p className="text-[#ffffff] text-sm lg:text-lg font-medium tracking-tight leading-relaxed lg:leading-relaxed w-full mt-4">
+            <p className="text-[#ffffff] text-sm font-medium tracking-tight leading-relaxed w-full mt-4">
               Our magnificent team who drive innovative strategies and challenge
               every complex business problems.
             </p>
