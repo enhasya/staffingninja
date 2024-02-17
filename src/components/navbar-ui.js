@@ -15,7 +15,7 @@ const NavbarUI = () => {
   return (
     <nav className="bg-[#2c3640] flex flex-col lg:flex-row gap-2 lg:gap-4 items-center justify-between w-full h- p-4">
       <section className="flex flex-col lg:flex-row gap-2 items-start lg:items-center justify-start w-full lg:w-[30%]">
-        <img src={StaffingNinja} width="128" height="128" />
+        <img src={StaffingNinja} width="128" height="128" alt="StaffingNinja"/>
       </section>
       <section className="flex flex-col lg:flex-row gap-2 items-start lg:items-center justify-center w-full lg:w-[40%]">
         <NavbarItems title={"Home"} />
@@ -26,16 +26,16 @@ const NavbarUI = () => {
         <NavbarItems title={"Contact us"} />
         <div className="flex flex-row gap-2 items-center justify-start lg:justify-center w-full lg:w-auto">
           <button className="bg-transparent transition-all hover:bg-[#ffffff]/10 rounded-lg p-4">
-            <img src={Instagram} width="16" height="16" />
+            <img src={Instagram} width="16" height="16" alt="Instagram" />
           </button>
           <button className="bg-transparent transition-all hover:bg-[#ffffff]/10 rounded-lg p-4">
-            <img src={LinkedIn} width="16" height="16" />
+            <img src={LinkedIn} width="16" height="16" alt="LinkedIn" />
           </button>
           <button className="bg-transparent transition-all hover:bg-[#ffffff]/10 rounded-lg p-4">
-            <img src={Threads} width="16" height="16" />
+            <img src={Threads} width="16" height="16" alt="Threads" />
           </button>
           <button className="bg-transparent transition-all hover:bg-[#ffffff]/10 rounded-lg p-4">
-            <img src={X} width="16" height="16" />
+            <img src={X} width="16" height="16" alt="X" />
           </button>
         </div>
       </section>
