@@ -22,14 +22,26 @@ const Hero = () => {
           to revolutionizing the way businesses find the perfect talent and
           individuals discover their dream careers.
         </p>
-        <button className="bg-[#2c3640]/100 transition-all hover:bg-[#2c3640]/80 rounded-lg px-8 py-4 mt-8 lg:mt-16">
-          <p className="text-[#ffffff] text-xs lg:text-base font-bold tracking-tight leading-relaxed lg:leading-relaxed">
-            Get started
-          </p>
-        </button>
+        <div className="flex flex-row gap-2 items-center justify-start w-full h-auto">
+          <button className="bg-[#2c3640]/100 transition-all hover:bg-[#2c3640]/80 rounded-lg px-8 py-4 mt-8 lg:mt-16">
+            <p className="text-[#ffffff] text-xs lg:text-base font-bold tracking-tight leading-relaxed lg:leading-relaxed">
+              Get Started
+            </p>
+          </button>
+          <button className="bg-[#ffffff]/100 transition-all hover:bg-[#ffffff]/80 rounded-lg px-8 py-4 mt-8 lg:mt-16">
+            <p className="text-[#2c3640] text-xs lg:text-base font-bold tracking-tight leading-relaxed lg:leading-relaxed">
+              Privacy Policy
+            </p>
+          </button>
+        </div>
       </section>
       <section className="flex flex-col gap-0 items-center justify-center w-full lg:w-[50%]">
-        <img src={RecruitmentConsultancy} width="480" height="480" alt="RecruitmentConsultancy" />
+        <img
+          src={RecruitmentConsultancy}
+          width="480"
+          height="480"
+          alt="RecruitmentConsultancy"
+        />
       </section>
     </div>
   );
