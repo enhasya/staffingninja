@@ -19,7 +19,7 @@ const Details = () => {
           blockchain, AI, Machine Learning, etc.
         </p>
         <div className="flex flex-col lg:flex-row gap-8 justify-center w-full mt-8 lg:mt-16">
-          <div className="bg-white/10 transition-all hover:bg-white/20 hover:backdrop-blur-lg flex flex-col gap-0 items-center w-full lg:w-[480px] p-8 rounded-lg">
+          <div className="bg-white/10 transition-all hover:bg-white/20 ring-1 ring-white/15 hover:backdrop-blur-lg flex flex-col gap-0 items-center w-full lg:w-[480px] p-8 rounded-lg">
             <p className="text-[#ffffff] text-lg font-bold tracking-tight leading-relaxed w-full mt-0">
               Mission & Goal
             </p>
@@ -34,7 +34,7 @@ const Details = () => {
               their skills.
             </p>
           </div>
-          <div className="bg-white/10 transition-all hover:bg-white/20 hover:backdrop-blur-lg flex flex-col gap-0 items-center w-full lg:w-[480px] p-8 rounded-lg">
+          <div className="bg-white/10 transition-all hover:bg-white/20 ring-1 ring-white/15 hover:backdrop-blur-lg flex flex-col gap-0 items-center w-full lg:w-[480px] p-8 rounded-lg">
             <p className="text-[#ffffff] text-lg font-bold tracking-tight leading-relaxed w-full mt-0">
               Why Us?
             </p>
